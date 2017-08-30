@@ -62,7 +62,6 @@ export default class TabBarBottom extends PureComponent<
     const {
       position,
       navigation,
-      getOnPress,
       activeTintColor,
       inactiveTintColor,
       labelStyle,
@@ -131,6 +130,7 @@ export default class TabBarBottom extends PureComponent<
       position,
       navigation,
       jumpToIndex,
+      getOnPress,
       activeBackgroundColor,
       inactiveBackgroundColor,
       style,
